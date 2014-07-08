@@ -1,0 +1,55 @@
+.cargame{
+	border-style:solid;
+	border-collapse:separate;
+	display: block;
+        width:325px;
+	margin: auto;
+	color : black;
+        margin-left:-37.5%;
+}
+.input{
+        float:right;
+} 
+.submit{
+        width: 80%;
+ 	display:block;
+    	margin:0 auto; 
+}
+.centered{
+	text-align:center;
+	padding-top:50px;
+        width:1000px;
+	margin:0 auto;
+}
+.bordered{	
+	border-collapse:separate;
+	height: 1025px;
+}
+
+#clock{
+        font-family:TrueType font;
+        border-style:solid;
+        width:325px;
+        height:46px;
+        margin-right:21%;
+        float:left;
+        margin-left:12.5%;
+        margin-bottom:2%;
+        }
+.highscore{
+        text-align:center;
+   	border-style:solid;
+   	width:70%;
+   	padding-right:46px;
+   	margin-right:20%;
+        float:right;
+        margin-right:12.5%;	
+}
+img{
+        width:950px;
+        height:550px;
+}
+.slideshow{
+        width:750px;
+        height:650px; 
+}
