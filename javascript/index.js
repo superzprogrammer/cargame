@@ -1,10 +1,12 @@
 $(document).ready(function(){
 	$('.slideshow').cycle({
-		fx:'fade'
+		fx:'fade',
+		speed:500,
+		timeout: 30000
 	});
 
-	$('#clock').countdown('60:00', function(event) {
-	   $(this).html(event.strftime('seconds %S'));
+	$('#clock').timeTo(30, function(){
+		$('#clock').timeTo(30);
 	});
 });
 
