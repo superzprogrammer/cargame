@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<script type="text/javascript" src="javascript/index.js"></script>
+               
+	</head>
+	<body class="bordered" ng-controller="CargameController">
+	<div class="centered">
+  <div class="slideshow">
+	<img ng-repeat="slide in slides" class="slide" ng-src="{{slide.image}}">
+  </div>
+<div>
+<div class="input">
+<form class="cargame">
+  <input ><br>
+  <input class="submit" type="submit" value="submit">
+</form>
+</div>
+<div><timer interval="1000" countdown="100">{{countdown}}</timer></div>
+</div>
+<div class="highscore">
+      <ol> Highscores
+	<li></li>		
+	<li></li>
+	<li></li>
+	<li></li>		
+	<li></li>
+	<li></li>
+	<li></li>		
+	<li></li>
+	<li></li>
+        <li></li>
+      </ol>
+</div>
+</div>
+	</body>
+</html>
+
+
