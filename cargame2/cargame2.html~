@@ -19,7 +19,8 @@
 				</form>
 			</div>
 			<div>
-                  		<progress value="30" max="30"></progress>
+                                <label class="clock">{{second}}</label>
+                  		<progress ng-model="second" max="30"></progress>
 			</div>
 			</div>
 			<div class="highscore">

@@ -28,17 +28,10 @@
 	height: 1025px;
 }
 
-#clock{
-        background-color:#000000;
-        border-style:solid;
-        width:325px;
-        height:46px;
-        margin-right:21%;
-        float:left;
-        margin-left:8.5%;
-        margin-bottom:2%;
-        padding-top: 1%;
-        }
+#label{
+        font-style:normal;
+        font-size:50px;
+}
 .highscore{
         background-color:#FFFFFF;
         text-align:center;
