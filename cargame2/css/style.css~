@@ -24,7 +24,7 @@
 	margin:0 auto;
 }
 .bordered{
-     background: radial-gradient( red , black);	
+     background: radial-gradient( teal , black);	
 	border-collapse:separate;
 	height: 1025px;
 }
@@ -57,4 +57,9 @@ img{
 .slideshow{
         width:750px;
         height:650px; 
+}
+.ng-binding{
+        font-size:61px;
+        margin-left:-231.5px;
+        margin-right:5px;
 }

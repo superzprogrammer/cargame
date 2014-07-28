@@ -30,6 +30,7 @@ app.controller('CargameController', function ($scope, $timeout){
 		];
 
 	$scope.currentIndex = 0;
+        $scope.points=0;
 	$scope.second=30;	
 
 	$scope.cycle= function (){
@@ -52,6 +53,15 @@ app.controller('CargameController', function ($scope, $timeout){
         $scope.nextSlide = function () {
             $scope.currentIndex = ($scope.currentIndex > 0) ? --$scope.currentIndex : $scope.slides.length - 1;
             
+        };
+        
+        $scope.onClick = function () {
+            $scope.nextSlide();
+            $scope.second=30;
+            if($scope.answer == $scope.slides[$scope.currentIndex].description){
+	        $scope.points++;
+        
+	    }
         };
         $scope.promise = $timeout($scope.cycle, 1000);
 //http://onehungrymind.com/build-sweet-photo-slider-angularjs-animate/

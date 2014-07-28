@@ -12,15 +12,17 @@
 		</div>
 		<div>
 			<div class="input">
-				<form class="cargame">
-					<input>
+				<form ng-submit="onClick()" class="cargame">
+					<input ng-model="answer">
 					<br>
 					<input class="submit" type="submit" value="submit" >
 				</form>
 			</div>
 			<div>
+                        
                                 <label>{{second}}</label>
                   		<progress ng-model="second" max="30"></progress>
+                        
 			</div>
 			</div>
 			<div class="highscore">
