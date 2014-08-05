@@ -1,0 +1,24 @@
+	<div class="centered" ng-controller="CargameController">
+  		<div class="slideshow">
+			<img class="present"src="http://lh6.googleusercontent.com/-2KluxMzr-u8/AAAAAAAAAAI/AAAAAAAAAEo/_r5Bg4lhqas/s512-c/photo.jpg" >
+		</div>
+		<div>
+			
+			<div class="lasthighscore">
+      			<ol> Highscores
+					<li></li>		
+					<li></li>
+					<li></li>
+					<li></li>		
+					<li></li>
+					<li></li>
+					<li></li>		
+					<li></li>
+					<li></li>
+					<li></li>
+		  		</ol>
+			</div>
+		</div>
+
+
+

@@ -11,6 +11,7 @@
 }
 .input{
         float:right;
+        color: gray
 } 
 .submit{
         width: 80%;
@@ -55,11 +56,25 @@ img{
         height:550px;
 }
 .slideshow{
-        width:750px;
-        height:650px; 
+        width:950px;
+        height:583px; 
 }
 .ng-binding{
         font-size:61px;
         margin-left:-231.5px;
         margin-right:5px;
+}
+.lasthighscore{
+        margin-top:-93px;
+        background-color: #FFFFFF;
+	text-align: center;
+	width: 70%;
+	padding-right: 46px;
+	margin-right: 20%;
+	float: right;
+	margin-right: 16.5%;
+}
+.present{
+        width: 504px;
+	height: 446px;
 }

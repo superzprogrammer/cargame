@@ -8,24 +8,11 @@
 	<body class="bordered">
 	<div class="centered" ng-controller="CargameController">
   		<div class="slideshow">
-			<img ng-repeat="slide in slides" class="slide" ng-src="{{slide.image}}"ng-hide="!isCurrentSlideIndex($index)">
+			<img class="present"src="http://lh6.googleusercontent.com/-2KluxMzr-u8/AAAAAAAAAAI/AAAAAAAAAEo/_r5Bg4lhqas/s512-c/photo.jpg" >
 		</div>
 		<div>
-			<div class="input">
-				<form ng-submit="onClick()" class="cargame">
-					<input ng-model="answer">
-					<br>
-					<input class="submit" type="submit" value="submit" >
-				</form>
-			</div>
-			<div>
-                        
-                                <label>{{second}}</label>
-                  		<progress ng-model="second" max="30"></progress>
-                        
-			</div>
-			</div>
-			<div class="highscore">
+			
+			<div class="lasthighscore">
       			<ol> Highscores
 					<li></li>		
 					<li></li>

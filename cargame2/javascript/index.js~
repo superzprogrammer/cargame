@@ -1,4 +1,20 @@
-var app = angular.module('carpro', []);
+var app = angular.module('carpro', ['ngRoute']);
+
+app.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/game', {
+        templateUrl: 'templates/game.html',
+        controller: 'CargameController'
+      }).
+      when('/end',{
+	templateUrl: 'templates/end.html',
+	controller: 'EndController'
+      }).
+      otherwise({
+        redirectTo: '/game'
+      });
+  }]);
 
 app.controller('CargameController', function ($scope, $timeout){
 	$scope.slides=[
@@ -64,7 +80,13 @@ app.controller('CargameController', function ($scope, $timeout){
 	    }
         };
         $scope.promise = $timeout($scope.cycle, 1000);
-//http://onehungrymind.com/build-sweet-photo-slider-angularjs-animate/
+});
+
+app.controller('EndController', function ($scope){
 
 });
+
+
+
+
 
