@@ -97,8 +97,8 @@ appControllers.controller('CargameController', function ($scope, $timeout,$locat
             return $scope.currentIndex == index;
         };
         $scope.nextSlide = function () {
-            $scope.currentIndex = ($scope.currentIndex > 0) ? --$scope.currentIndex : $scope.slides.length - 1;
-            
+            //$scope.currentIndex = ($scope.currentIndex > 0) ? --$scope.currentIndex : $scope.slides.length - 1;
+            $scope.currentIndex = Math.round(Math.random()*$scope.slides.length);
         };
         
         $scope.onClick = function () {
